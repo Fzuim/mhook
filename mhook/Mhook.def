@@ -1,0 +1,8 @@
+LIBRARY	"Mhook"
+DESCRIPTION  'Mhook Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+	Mhook_SetHook	@1
+	Mhook_Unhook	@2
